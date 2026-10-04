@@ -29,8 +29,6 @@
 
 ## Open source contributions
 
-19 merged pull requests in 10 projects. Most were written with Claude Code, and every one says it was made with AI.
-
 | Project | What changed |
 | --- | --- |
 | [uutils/coreutils](https://github.com/uutils/coreutils) | 10 fixes that make the Rust coreutils behave like GNU's: [stat](https://github.com/uutils/coreutils/pull/14323), [numfmt](https://github.com/uutils/coreutils/pull/14322), [paste](https://github.com/uutils/coreutils/pull/14321), [csplit](https://github.com/uutils/coreutils/pull/14320), [join](https://github.com/uutils/coreutils/pull/14318), [truncate, paste, uniq](https://github.com/uutils/coreutils/pull/14258), [join, od](https://github.com/uutils/coreutils/pull/14257), [uniq, split](https://github.com/uutils/coreutils/pull/14255), [head, tail](https://github.com/uutils/coreutils/pull/14249), [fold](https://github.com/uutils/coreutils/pull/14248) |
