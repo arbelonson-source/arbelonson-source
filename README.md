@@ -29,18 +29,18 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/arbelonson-source/ozen"><img src="assets/ozen-icon.png" width="56" align="left" alt="Ozen icon: a yellow ear"></a>
+      <a href="https://github.com/arbelonson-source/ozen"><img src="assets/ozen-icon.png" width="56" alt="Ozen icon: a yellow ear"></a><br>
       <strong><a href="https://github.com/arbelonson-source/ozen">Ozen</a></strong><br>
       Live captions for conversation, for people with hearing loss. Built for one grandmother, on her phone, private, and steady enough to read all evening. An Android version has just started.
       <br><br>
       <code>Swift 6</code> <code>iOS 17+</code> <code>AGPL-3.0</code>
     </td>
     <td width="50%" valign="top">
-      <a href="https://arbelonson-source.github.io/dreamjar-site/"><img src="assets/dreamjar-icon.svg" width="56" align="left" alt="DreamJar icon: a jar with coins"></a>
+      <a href="https://arbelonson-source.github.io/dreamjar-site/"><img src="assets/dreamjar-icon.svg" width="56" alt="DreamJar icon: a jar with coins"></a><br>
       <strong><a href="https://arbelonson-source.github.io/dreamjar-site/">DreamJar</a></strong><br>
       A private, ad-free saving app for a child working toward one real thing they want to buy. No accounts, no servers, no ads, no analytics.
       <br><br>
-      <code>Android</code> <code>No internet permission</code>
+      <code>Android</code> <code>No internet</code>
     </td>
   </tr>
 </table>
