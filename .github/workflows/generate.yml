@@ -1,0 +1,56 @@
+name: Generate profile images
+
+on:
+  schedule:
+    - cron: '17 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: generate-profile-images
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out the profile repo
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Contribution snake (light and dark)
+        uses: Platane/snk@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-light.svg?color_snake=%23C9701A&color_dots=%23EADFCB,%23F3D3A6,%23E7AC62,%23D28A35,%23A8631A&color_dot_border=%23DCCFB6
+            dist/snake-dark.svg?color_snake=%23F0A354&color_dots=%2323272F,%2352391F,%238A5A25,%23C48030,%23F0A354&color_dot_border=%232B3039
+
+      - name: Language breakdown (light and dark)
+        run: node scripts/languages.mjs dist
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+
+      - name: Publish to the output branch
+        run: |
+          set -euo pipefail
+          url="https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          work="$(mktemp -d)/out"
+          if git ls-remote --exit-code --heads "$url" output >/dev/null 2>&1; then
+            git clone --depth 1 --branch output "$url" "$work"
+          else
+            git init -b output "$work"
+            git -C "$work" remote add origin "$url"
+          fi
+          cp dist/*.svg "$work"/
+          cd "$work"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "Update generated images"
+          git push origin output
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
