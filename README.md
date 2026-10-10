@@ -1,7 +1,28 @@
+<p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img alt="Building software for the people at my table. Private by design: no accounts, no ads, no tracking." src="assets/banner-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark) and (max-width: 640px)" srcset="assets/hero-mobile-dark.svg">
+  <source media="(prefers-color-scheme: light) and (max-width: 640px)" srcset="assets/hero-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <img alt="Building software for the people at my table. Private by design: no accounts, no ads, no tracking." src="assets/hero-light.svg" width="100%">
 </picture>
+</p>
+
+<p align="center">
+  <a href="#projects">Projects</a> &nbsp;&middot;&nbsp;
+  <a href="#open-source-contributions">Open source</a> &nbsp;&middot;&nbsp;
+  <a href="https://arbelonson-source.github.io/dreamjar-site/">DreamJar site</a>
+</p>
+
+<p align="center">
+  I'm Arbel. I make small, careful apps for particular people, starting with the ones at my own table.<br>
+  Everything I publish is built to keep your data with you: no accounts, no ads, no tracking.<br>
+  I also send small fixes to open source projects.
+</p>
+
+<p align="center">
+  <strong>Building with</strong> &nbsp;<code>Swift</code> <code>Kotlin</code> <code>Python</code> <code>TypeScript</code> <code>HTML</code> <code>Shell</code><br>
+  <strong>Contributing in</strong> &nbsp;<code>Rust</code> <code>Go</code> <code>Python</code> <code>TypeScript</code> <code>QML</code>
+</p>
 
 ## Projects
 
@@ -10,24 +31,39 @@
     <td width="50%" valign="top">
       <a href="https://github.com/arbelonson-source/ozen"><img src="assets/ozen-icon.png" width="56" align="left" alt="Ozen icon: a yellow ear"></a>
       <strong><a href="https://github.com/arbelonson-source/ozen">Ozen</a></strong><br>
-      Live captions for conversation, for people with hearing loss. Built for one grandmother, on her phone, private, and steady enough to read all evening.
+      Live captions for conversation, for people with hearing loss. Built for one grandmother, on her phone, private, and steady enough to read all evening. An Android version has just started.
       <br><br>
-      <img alt="Swift 6" src="https://img.shields.io/badge/Swift-6-F05138?logo=swift&logoColor=white">
-      <img alt="iOS 17 or later" src="https://img.shields.io/badge/iOS-17%2B-lightgrey?logo=apple">
-      <img alt="License: AGPL-3.0" src="https://img.shields.io/badge/license-AGPL--3.0-blue">
+      <code>Swift 6</code> <code>iOS 17+</code> <code>AGPL-3.0</code>
     </td>
     <td width="50%" valign="top">
       <a href="https://arbelonson-source.github.io/dreamjar-site/"><img src="assets/dreamjar-icon.svg" width="56" align="left" alt="DreamJar icon: a jar with coins"></a>
       <strong><a href="https://arbelonson-source.github.io/dreamjar-site/">DreamJar</a></strong><br>
       A private, ad-free saving app for a child working toward one real thing they want to buy. No accounts, no servers, no ads, no analytics.
       <br><br>
-      <img alt="Android" src="https://img.shields.io/badge/Android-app-3DDC84?logo=android&logoColor=white">
-      <img alt="No internet permission" src="https://img.shields.io/badge/internet-not%20needed-success">
+      <code>Android</code> <code>No internet permission</code>
     </td>
   </tr>
 </table>
 
+## Activity
+
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arbelonson-source/arbelonson-source/output/snake-dark.svg">
+  <img alt="My contribution calendar over the last year, with a small snake eating the days I committed code." src="https://raw.githubusercontent.com/arbelonson-source/arbelonson-source/output/snake-light.svg" width="100%">
+</picture>
+</p>
+
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arbelonson-source/arbelonson-source/output/languages-dark.svg">
+  <img alt="Languages in my own public projects, mostly Swift." src="https://raw.githubusercontent.com/arbelonson-source/arbelonson-source/output/languages-light.svg" width="460">
+</picture>
+</p>
+
 ## Open source contributions
+
+Small, careful fixes sent to other people's projects.
 
 | Project | What changed |
 | --- | --- |
@@ -43,3 +79,12 @@
 | [glab-tui](https://github.com/rcieri/glab-tui) | [Milestone progress no longer crashes on out-of-order brackets](https://github.com/rcieri/glab-tui/pull/408) |
 | [lucid](https://github.com/Sn3akyy1/lucid) | [The installer warns on a Hyprland without Lua config](https://github.com/Sn3akyy1/lucid/pull/2), [and names the files a replaced `hyprland.conf` sourced](https://github.com/Sn3akyy1/lucid/pull/5) |
 | [reliabot](https://github.com/dupuy/reliabot) | [pre-commit works in Git worktrees](https://github.com/dupuy/reliabot/pull/470) |
+
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
+  <img alt="" src="assets/divider-light.svg" width="100%">
+</picture>
+</p>
+
+<p align="center"><sub>Private by design. The images above are made by a small automatic job once a day. No counters, no trackers.</sub></p>
