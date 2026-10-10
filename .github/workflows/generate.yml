@@ -29,7 +29,7 @@ jobs:
             dist/snake-dark.svg?color_snake=%23F0A354&color_dots=%2323272F,%2352391F,%238A5A25,%23C48030,%23F0A354&color_dot_border=%232B3039
 
       - name: Language breakdown (light and dark)
-        run: node scripts/languages.mjs dist
+        run: node scripts/languages.mjs "$RUNNER_TEMP/langs"
         env:
           GITHUB_TOKEN: ${{ github.token }}
 
@@ -44,7 +44,7 @@ jobs:
             git init -b output "$work"
             git -C "$work" remote add origin "$url"
           fi
-          cp dist/*.svg "$work"/
+          cp dist/*.svg "$RUNNER_TEMP"/langs/*.svg "$work"/
           cd "$work"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
