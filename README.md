@@ -57,7 +57,7 @@
 <p align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arbelonson-source/arbelonson-source/output/languages-dark.svg">
-  <img alt="Languages in my own public projects, mostly Swift." src="https://raw.githubusercontent.com/arbelonson-source/arbelonson-source/output/languages-light.svg" width="460">
+  <img alt="Languages I've written, by lines added: in my own projects mostly Swift, in open source contributions mostly Rust and Python." src="https://raw.githubusercontent.com/arbelonson-source/arbelonson-source/output/languages-light.svg" width="460">
 </picture>
 </p>
 
@@ -87,4 +87,4 @@ Small, careful fixes sent to other people's projects.
 </picture>
 </p>
 
-<p align="center"><sub>Private by design. The images above are made by a small automatic job once a day. No counters, no trackers.</sub></p>
+<p align="center"><sub>Private by design. The activity images are made by a small automatic job once a day. No counters, no trackers.</sub></p>
