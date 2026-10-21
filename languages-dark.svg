@@ -5,7 +5,7 @@
 <text x="32" y="92" font-size="14" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-weight="700" letter-spacing="0.5" fill="#A9A89F">IN MY OWN PROJECTS</text>
 <text x="32" y="123" font-size="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-weight="600" fill="#EDE9E2">Kotlin</text>
 <rect x="168" y="109" width="280" height="12" rx="6" fill="#343A45"/>
-<rect x="168" y="109" width="158.0" height="12" rx="6" fill="#F0A354"/>
+<rect x="168" y="109" width="158.2" height="12" rx="6" fill="#F0A354"/>
 <text x="464" y="123" font-size="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" fill="#A9A89F">56%</text>
 <text x="32" y="161" font-size="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-weight="600" fill="#EDE9E2">Swift</text>
 <rect x="168" y="147" width="280" height="12" rx="6" fill="#343A45"/>
@@ -13,7 +13,7 @@
 <text x="464" y="161" font-size="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" fill="#A9A89F">34%</text>
 <text x="32" y="199" font-size="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-weight="600" fill="#EDE9E2">Python</text>
 <rect x="168" y="185" width="280" height="12" rx="6" fill="#343A45"/>
-<rect x="168" y="185" width="12.5" height="12" rx="6" fill="#F0A354"/>
+<rect x="168" y="185" width="12.4" height="12" rx="6" fill="#F0A354"/>
 <text x="464" y="199" font-size="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" fill="#A9A89F">4%</text>
 <text x="32" y="237" font-size="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-weight="600" fill="#EDE9E2">HTML</text>
 <rect x="168" y="223" width="280" height="12" rx="6" fill="#343A45"/>
