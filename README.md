@@ -53,6 +53,7 @@ Also: [Tidegrab](https://github.com/arbelonson-source/tidegrab), a turn-based di
 
 Fixes other people's projects have merged, newest first.
 
+- Nov 15, **Obliteration**: [Windows CI downloads a Vulkan SDK that LunarG still serves.](https://github.com/obhq/obliteration/pull/1485)
 - Nov 15, **Horizon**: [Happy ghasts now fly at their flying_speed attribute.](https://github.com/horizon-rust/horizon/pull/16570)
 - Oct 31, **Horizon**: [Waypoints clear when the server reconfigures the client.](https://github.com/horizon-rust/horizon/pull/5143)
 - Oct 19, **MCP Hangar**: [Shaping events are recorded only when a mutator applies.](https://github.com/mcp-hangar/mcp-hangar/pull/1574)
