@@ -53,6 +53,10 @@ Also: [Tidegrab](https://github.com/arbelonson-source/tidegrab), a turn-based di
 
 Fixes other people's projects have merged, newest first.
 
+- Nov 17, **Obliteration**: [The hypervisor builds on Linux AArch64 again, now checked by CI.](https://github.com/obhq/obliteration/pull/1486)
+- Nov 17, **Obliteration**: [The kernel checks for SYSCALL support before turning it on.](https://github.com/obhq/obliteration/pull/1489)
+- Nov 16, **Obliteration**: [Mac CI runs again on macos-latest after GitHub retired macOS 14.](https://github.com/obhq/obliteration/pull/1488)
+- Nov 16, **Neomacs**: [A line prefix set on an overlay is now drawn, as in GNU Emacs.](https://github.com/eval-exec/neomacs/pull/786)
 - Nov 15, **Obliteration**: [Windows CI downloads a Vulkan SDK that LunarG still serves.](https://github.com/obhq/obliteration/pull/1485)
 - Nov 15, **Horizon**: [Happy ghasts now fly at their flying_speed attribute.](https://github.com/horizon-rust/horizon/pull/16570)
 - Oct 31, **Horizon**: [Waypoints clear when the server reconfigures the client.](https://github.com/horizon-rust/horizon/pull/5143)
