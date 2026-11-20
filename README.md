@@ -53,6 +53,8 @@ Also: [Tidegrab](https://github.com/arbelonson-source/tidegrab), a turn-based di
 
 Fixes other people's projects have merged, newest first.
 
+- Nov 18, **MCP Hangar**: [Starting a group with hangar_start now publishes each member's start event.](https://github.com/mcp-hangar/mcp-hangar/pull/2270)
+- Nov 17, **hashcat**: [Three hash modes reject an iteration count of 0, as mode 26100 already did.](https://github.com/hashcat/hashcat/pull/5119)
 - Nov 17, **Obliteration**: [The hypervisor builds on Linux AArch64 again, now checked by CI.](https://github.com/obhq/obliteration/pull/1486)
 - Nov 17, **Obliteration**: [The kernel checks for SYSCALL support before turning it on.](https://github.com/obhq/obliteration/pull/1489)
 - Nov 16, **Obliteration**: [Mac CI runs again on macos-latest after GitHub retired macOS 14.](https://github.com/obhq/obliteration/pull/1488)
